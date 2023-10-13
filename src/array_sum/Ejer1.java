@@ -5,7 +5,7 @@ public class Ejer1 {
 		int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10};
 		int result = 0; //Race condition...
 		//int	n_threads = Integer.valueOf(args[0]);
-		int n_threads = 9; // n_thread can not be greater than arr.length or 0 
+		int n_threads = 3; // n_thread can not be greater than arr.length or 0 
 		if (n_threads < 1 || n_threads > arr.length)
 		{
 			System.out.println("Invalide n_threads");
